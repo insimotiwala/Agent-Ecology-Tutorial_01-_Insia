@@ -21,7 +21,8 @@ public class Factory : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        ;
+        Debug.Log("Clumpy Space City");
+
         _lastMake += Time.deltaTime; //_lastMake = _lastMake + Time.deltaTime;
         if (_lastMake > MakeRate)
         {
